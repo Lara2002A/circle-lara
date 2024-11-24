@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    background-image: url(moon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(151, 0, 0);
+    text-align: center;
+}
+
+h1 {
+    font-size: 48 px;
+}
+
+.active {
+    background-image: url(sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(201, 133, 237);
+    font-family: cursive;
+}
+
+/* .on {
+    background-image: url(night.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+ 
