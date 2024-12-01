@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+
+    
+    background-color: black;
+    background-image: url(data/kbnm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(151, 0, 0);
+    text-align: center;
+}
+
+h1 {
+    font-size: 48 px;
+}
+
+.choice1 {
+
+    background-color: black;
+    background-image: url(data/kbnm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(151, 0, 0);
+    text-align: center;
+}
