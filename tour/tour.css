@@ -3,30 +3,44 @@ html {
 }
 *, *:before, *:after {
     box-sizing: inherit;
-    cursor: url('data/witch.png'), auto;
-
-
-}
-
-.active {
-    cursor: url('data/witch1.png'), auto; 
-}
-
-.index {
-    background-color: black;
-    background-image: url(data/welcome.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    color: rgb(92, 255, 136);
-    display: block;
-    font-size: 25px;
     font-family:cursive;
     text-align: center;
 
+}
+
+
+  a:link, a:visited {
+    background-color: #a288ff;
+    color: rgb(198, 255, 190);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(244, 96, 255);
+  }
+
+.index {
+    background-image: url(data/welcome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgb(0, 0, 0);
 
 
+
+    margin: 150px auto 0px;
+
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 25px;
+    padding: 50px;
+
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 900px;
+    height: 500px;
 }
 
 .choice1 {
@@ -35,8 +49,12 @@ html {
     background-image: url(data/1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(151, 0, 0);
-    text-align: center;
+    margin: 150px auto 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(255, 255, 255);
+
+
 }
 
 .choice2A {
@@ -45,8 +63,10 @@ html {
     background-image: url(data/2A.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(151, 0, 0);
-    text-align: center;
+    margin: 150px auto 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(255, 255, 255);
 }
 
 .choice2B {
@@ -55,8 +75,10 @@ html {
     background-image: url(data/2B.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(151, 0, 0);
-    text-align: center;
+    margin: 150px auto 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(255, 255, 255);
 }
 
 .choice3A {
@@ -65,8 +87,10 @@ html {
     background-image: url(data/3A.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(151, 0, 0);
-    text-align: center;
+    margin: 150px auto 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(255, 255, 255);
 }
 
 .choice3B {
@@ -75,8 +99,10 @@ html {
     background-image: url(data/3B.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(151, 0, 0);
-    text-align: center;
+    margin: 150px auto 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(255, 255, 255);
 }
 
 .choice4A {
@@ -85,8 +111,10 @@ html {
     background-image: url(data/4A.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(151, 0, 0);
-    text-align: center;
+    margin: 150px auto 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(255, 255, 255);
 }
 
 .choice4B {
@@ -95,8 +123,10 @@ html {
     background-image: url(data/4B.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(151, 0, 0);
-    text-align: center;
+    margin: 150px auto 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(255, 255, 255);
 }
 
 .choice5A {
@@ -105,8 +135,10 @@ html {
     background-image: url(data/5A.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(151, 0, 0);
-    text-align: center;
+    margin: 150px auto 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(255, 255, 255);
 }
 
 .choice5B {
@@ -115,8 +147,10 @@ html {
     background-image: url(data/5B.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(151, 0, 0);
-    text-align: center;
+    margin: 150px auto 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(255, 255, 255);
 }
 
 .choice6A {
@@ -125,8 +159,10 @@ html {
     background-image: url(data/6A.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(151, 0, 0);
-    text-align: center;
+    margin: 150px auto 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(255, 255, 255);
 }
 
 .choice6B {
@@ -135,7 +171,17 @@ html {
     background-image: url(data/6B.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(151, 0, 0);
-    text-align: center;
+    margin: 150px auto 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(255, 255, 255);
 }
+
+
+.active {
+    background-image: url(data/abc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
