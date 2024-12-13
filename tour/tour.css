@@ -22,25 +22,65 @@ html {
     background-color: rgb(244, 96, 255);
   }
 
-.index {
+
+  h1 {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:3px;
+    background-color:rgb(196, 0, 167);
+    color:rgb(255, 192, 246);
+}
+
+h2 {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:3px;
+    background-color:rgb(103, 0, 94);
+    color:#ffffff;
+}
+
+
+h3 {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:3px;
+    background-color:rgb(47, 77, 175);
+    color:#c5cdff;
+}
+
+h4 {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:3px;
+    background-color:rgb(22, 128, 22);
+    color:rgb(163, 255, 163);
+}
+
+
+h5 {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:3px;
+    color:#ffffff;
+}
+
+
+
+  .index {
     background-image: url(data/welcome.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 200px auto 0px;
 
+  
+}
 
-
-    margin: 150px auto 0px;
-
-    color: rgb(255, 255, 255);
-    display: block;
-    font-size: 25px;
-    padding: 50px;
-
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 50%;
-    width: 900px;
-    height: 500px;
+button {
+    background-color: rgb(174, 255, 0);
+    border-color: #c7ffe1;
+    color: #6a40ff;
 }
 
 .choice1 {
@@ -57,6 +97,11 @@ html {
 
 }
 
+.choice1 h3 {
+    background-color:rgb(0, 51, 81);
+    color:#79ceff;  
+}
+
 .choice2A {
 
     background-color: black;
@@ -67,6 +112,11 @@ html {
     padding-left: 20%;
     padding-right: 20%;
     color: rgb(255, 255, 255);
+}
+
+.choice2A h3 {
+    background-color:rgb(218, 143, 255);
+    color:#950e78;  
 }
 
 .choice2B {
@@ -81,6 +131,11 @@ html {
     color: rgb(255, 255, 255);
 }
 
+.choice2B h3 {
+    background-color:rgb(165, 7, 57);
+    color:#fccdf1;  
+}
+
 .choice3A {
 
     background-color: black;
@@ -91,6 +146,11 @@ html {
     padding-left: 20%;
     padding-right: 20%;
     color: rgb(255, 255, 255);
+}
+
+.choice3A h3 {
+    background-color:rgb(0, 40, 202);
+    color:#99aaff;  
 }
 
 .choice3B {
@@ -105,6 +165,11 @@ html {
     color: rgb(255, 255, 255);
 }
 
+.choice3B h3 {
+    background-color:rgb(145, 0, 189);
+    color:#ff98c6;  
+}
+
 .choice4A {
 
     background-color: black;
@@ -115,6 +180,11 @@ html {
     padding-left: 20%;
     padding-right: 20%;
     color: rgb(255, 255, 255);
+}
+
+.choice4A h3 {
+    background-color:rgb(155, 111, 0);
+    color:#ffd77a;  
 }
 
 .choice4B {
@@ -129,6 +199,11 @@ html {
     color: rgb(255, 255, 255);
 }
 
+.choice4B h3 {
+    background-color:rgb(191, 123, 255);
+    color:#9800ca;  
+}
+
 .choice5A {
 
     background-color: black;
@@ -139,6 +214,11 @@ html {
     padding-left: 20%;
     padding-right: 20%;
     color: rgb(255, 255, 255);
+}
+
+.choice5A h3 {
+    background-color:rgb(172, 57, 235);
+    color:#ffc36a;  
 }
 
 .choice5B {
@@ -153,6 +233,12 @@ html {
     color: rgb(255, 255, 255);
 }
 
+.choice5B h3 {
+    background-color:rgb(142, 0, 97);
+    color:#ff89b0;  
+}
+
+
 .choice6A {
 
     background-color: black;
@@ -164,6 +250,12 @@ html {
     padding-right: 20%;
     color: rgb(255, 255, 255);
 }
+
+.choice6A h2 {
+    background-color:rgb(13, 0, 160);
+    color:#e79eff;  
+}
+
 
 .choice6B {
 
@@ -177,11 +269,45 @@ html {
     color: rgb(255, 255, 255);
 }
 
+.choice6B h3 {
+    background-color:rgb(9, 0, 130);
+    color:#84f697;  
+}
+
 
 .active {
     background-image: url(data/abc.png);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
+.active h1 {
+    background-color:rgb(122, 255, 122);
+    color:#09634b;  
+}
 
+.active h2 {
+    background-color:rgb(123, 255, 123);
+    color:#ffffff;  
+}
+
+.active h3 {
+    background-color:rgb(254, 154, 227);
+    color:#b52f94;  
+}
+
+.active h4 {
+    background-color:rgb(125, 127, 255);
+    color:#47009e;  
+}
+
+.active h5 {
+    color:#ffffff;  
+}
+
+.active button {
+    background-color: #6a40ff;
+    border-color: #ccadff;
+    color: #40ffcf;
+}
